@@ -13,7 +13,7 @@ int main(){
     int term;
     cout << "Please enter a starting positive integer: ";
     cin >> term;
-    if (term < 0){
+    while (term < 0){
         cout << "Please enter an actual positive integer: ";
         cin >> term;
     }
